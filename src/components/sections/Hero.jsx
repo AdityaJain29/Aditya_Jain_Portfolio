@@ -83,7 +83,7 @@ const Hero = () => {
           >
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 mx-auto mb-8 lg:mb-0">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-3xl opacity-30 animate-pulse"></div>
-              <img  alt="Professional headshot of Aditya Jain, frontend developer" class="relative z-10 w-full h-full object-cover rounded-full border-4 border-white/20" src="https://images.unsplash.com/photo-1585734333426-b96221fbb2bb" />
+              <img  alt="Professional headshot of Aditya Jain, frontend developer" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white/20" src="https://images.unsplash.com/photo-1585734333426-b96221fbb2bb" />
             </div>
           </motion.div>
         </div>

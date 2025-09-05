@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { Toaster } from './components/ui/toaster';
 import Navbar from './components/layout/Navbar';
 import Hero from './components/sections/Hero';
@@ -16,27 +16,27 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Aditya Jain - Frontend & Python Developer</title>
-        <meta name="description" content="Aditya Jain's portfolio. A Frontend and Python Developer with experience in React.js, Python, and building responsive user interfaces." />
-        <meta property="og:title" content="Aditya Jain - Frontend & Python Developer" />
-        <meta property="og:description" content="Aditya Jain's portfolio. A Frontend and Python Developer with experience in React.js, Python, and building responsive user interfaces." />
-      </Helmet>
+          <title>Aditya Jain - Frontend & Python Developer</title>
+          <meta name="description" content="Aditya Jain's portfolio. A Frontend and Python Developer with experience in React.js, Python, and building responsive user interfaces." />
+          <meta property="og:title" content="Aditya Jain - Frontend & Python Developer" />
+          <meta property="og:description" content="Aditya Jain's portfolio. A Frontend and Python Developer with experience in React.js, Python, and building responsive user interfaces." />
+        </Helmet>
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-900 text-white">
-        <Navbar />
-        <main>
-          <Hero />
-          <About />
-          <Experience />
-          <Education />
-          <Skills />
-          <Projects />
-          <Certifications />
-          <Contact />
-        </main>
-        <Footer />
-        <Toaster />
-      </div>
+        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-900 text-white">
+          <Navbar />
+          <main>
+            <Hero />
+            <About />
+            <Experience />
+            <Education />
+            <Skills />
+            <Projects />
+            <Certifications />
+            <Contact />
+          </main>
+          <Footer />
+          <Toaster />
+        </div>
     </>
   );
 }

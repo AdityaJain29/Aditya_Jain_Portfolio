@@ -73,7 +73,7 @@ const Projects = () => {
               className="bg-white/5 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/10 group hover:border-purple-500/50 transition-all duration-300 flex flex-col"
             >
               <div className="relative overflow-hidden h-56">
-                <img  alt={`Screenshot of ${project.title} project`} class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" src="https://images.unsplash.com/photo-1572177812156-58036aae439c" />
+                <img  alt={`Screenshot of ${project.title} project`} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" src="https://images.unsplash.com/photo-1572177812156-58036aae439c" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
               
